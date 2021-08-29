@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta content="telephone=no" name="format-detection">
+		<meta name="wap-font-scale" content="no">
+		<title>幸運糖果大作戰</title>
+		<link rel="stylesheet" href="layer-v3.1.0/layer.css" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/index.css?v=2019102212133333333333333333" />
+		<script type="text/javascript" src="js/fsize.js"></script>
+	</head>
+
+	<body>
+		<div class="main">
+			<a class="rule" href="rule.html">
+				<img src="img/rule.png"/>
+			</a>
+			<img src="img/ref.png" class="ref"/>
+			<div class="mHead"></div>
+			<!--記錄-->
+			<div class="mDesc mDesc1">
+				<span class="mDescChange mDescChange1" onclick="allReward();"></span>
+				<span class="mDescChange mDescChange2" onclick="userReward();"></span>
+				<span class="mDescChange mDescChange3" onclick="userSend();"></span>
+				<div class="mDescBox">
+					<div class="mDescBoxTitle">
+					</div>
+					<div class="mDescBoxList"></div>
+				</div>
+			</div>
+			<!--榜单-->
+			<div class="mList">
+				<span class="mChange mChange1"></span>
+				<span class="mChange mChange2"></span>
+				<span class="mChange mChange3"></span>
+				<div class="mListTop">
+					<span class="mChangeImg1"></span>
+					<span class="mChangeImg1Check"></span>
+				</div>
+				<div class="mListCenter">
+					<span class="mChangeImg2"></span>
+					<span class="mChangeImg2Check"></span>
+					<div class="mListCenterInfo"></div>
+					<div class="mListCenterBox">
+						<div class="mListCenterTop"></div>
+						<div class="mListCenterList"></div>
+					</div>
+				</div>
+				<div class="mListBottom">
+					<img src="img/more.png" class="hide"/>
+					<p class="hide">榜單僅展示前50名</p>
+				</div>
+			</div>
+			<div class="mBottom">本活動最終解釋權歸Firefly Live所有.</div>
+			<div class="mUser hide"></div>
+		</div>
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="layer-v3.1.0/layer/layer.js"></script>
+		<script type="text/javascript" src="js/index.js?v=20191022174999999999999999"></script>
+	</body>
+
+</html>
